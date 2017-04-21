@@ -21,10 +21,10 @@ Added Views for
 - use pop() to remove session from a dict (pros? cons?)
 
 
-### 201721Apr+651747
+## 201721Apr+651747
 - Tested the app. Receiving a syntax error for request.form
 
-### 201721Apr652107
+## 201721Apr+652107
 - error in else if - should be elif and not elseif
 - corrected some typo
 
@@ -32,7 +32,7 @@ Added Views for
 - Templates uses jinja2 syntax
 - template inheritance are what makes reusing of a layout possible
 
-#### Created the layout.html
+### Created the layout.html
 - This template contains HTML skeleton
 - It also creates the log in and log out functions
 
