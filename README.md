@@ -12,3 +12,9 @@ Added Views for
 4. /logout
 - use pop() to remove session from a dict (pros? cons?)
 
+
+### 201721Apr+651747
+- Tested the app. Receiving a syntax error for request.form
+
+### Moving on to templates
+
