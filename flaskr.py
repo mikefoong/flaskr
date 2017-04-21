@@ -50,7 +50,7 @@ def show_entries():
     db = get_db()
     cur = db.execute('select title, text from entries order by id desc')
     entries = cur.fetchall()
-    return render_template('show_emtries.html', entries=entries)
+    return render_template('show_entries.html', entries=entries)
 
 @app.route('/add', methods=['POST'])
 def add_entry():
@@ -66,10 +66,10 @@ def add_entry():
 def login():
     error = None
     if request.method == 'POST':
-        if request.form['usernmae'] != app.config['USERNAME']:
+        if request.form['username'] != app.config['USERNAME']:
             error = 'Invalid Username'
-        elseif request.form['password'] != app.config['PASSWORD']:
-            error = 'Invalid Passord'
+        elif request.form['password'] != app.config['PASSWORD']:
+            error = 'Invalid Paswsord'
         else:
             session['logged_in'] = True
             flash('You are logged in')
