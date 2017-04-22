@@ -40,3 +40,11 @@ Added Views for
 - extends the layout.html 
 
 ### Created the login.html to authenticate the user
+
+## 201722Apr+650803-1
+### Adding Style to the project
+
+- Setup test
+- I think there is a problem with the directory structure. Will rework including git
+
+

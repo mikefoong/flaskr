@@ -1,4 +1,6 @@
 MANIFEST.in
+setup.cfg
+setup.py
 flaskr.egg-info/PKG-INFO
 flaskr.egg-info/SOURCES.txt
 flaskr.egg-info/dependency_links.txt
